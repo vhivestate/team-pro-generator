@@ -10,3 +10,9 @@ test('gets role', () => {
     const employee = new Engineer('V', 0, 'vhivestate@outlook.com', 'githubUser');
     expect(employee.getRole()).toBe(role);
 });
+
+test('gets github', () => {
+    const github = 'githubUser'
+    const employee = new Engineer('V', 0, 'vhivestate@outlook.com', 'githubUser');
+    expect(employee.getGithub()).toBe(github);
+});

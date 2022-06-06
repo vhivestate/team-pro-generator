@@ -10,3 +10,9 @@ test('gets role', () => {
     const employee = new Intern('V', 0, 'vhivestate@outlook.com', 'schoolName');
     expect(employee.getRole()).toBe(role);
 });
+
+test('gets school', () => {
+    const school = 'schoolName'
+    const employee = new Intern('V', 0, 'vhivestate@outlook.com', 'schoolName');
+    expect(employee.getSchool()).toBe(school);
+});
