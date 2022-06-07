@@ -14,5 +14,11 @@ test('gets role', () => {
 test('gets github', () => {
     const github = 'githubUser'
     const employee = new Engineer('V', 0, 'vhivestate@outlook.com', 'githubUser');
+    expect(employee.github).toBe(github);
+});
+
+test('gets github object', () => {
+    const github = 'githubUser'
+    const employee = new Engineer('V', 0, 'vhivestate@outlook.com', 'githubUser');
     expect(employee.getGithub()).toBe(github);
 });
