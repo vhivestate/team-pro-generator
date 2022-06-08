@@ -115,7 +115,7 @@ function generateMember() {
                         special = teamEmp[index].getSchool()
                     }
                     empHtml += `
-                    <div class="col-sm h4 bg-danger text-white p-3 ">
+                    <div class="col-sm h4 bg-danger text-white p-3">
                       <p> ${teamEmp[index].getName()}</p>
                       <p> ${teamEmp[index].getRole()}</p>
                       <ul>
@@ -139,7 +139,7 @@ function generateMember() {
                   <header class="text-center bg-danger display-3 text-white"> MY TEAM </header>
 
                   <div class="container">
-                  <div class="row p-3">
+                    <div class="row p-3">
                       ${empHtml}
                       </div>
                       </div>
