@@ -115,14 +115,14 @@ function generateMember() {
                         special = teamEmp[index].getSchool()
                     }
                     empHtml += `
-                    <div class="col-sm">
-                    <p> ${teamEmp[index].getName()}</p>
-                    <p> ${teamEmp[index].getRole()}</p>
-                    <ul>
-                    <li> ID: ${teamEmp[index].getId()}</li>
-                    <li> Email: ${teamEmp[index].getEmail()}</li>
-                    <li>${special}</li>
-                    </ul>
+                    <div class="col-sm h4 bg-danger text-white p-3 ">
+                      <p> ${teamEmp[index].getName()}</p>
+                      <p> ${teamEmp[index].getRole()}</p>
+                      <ul>
+                        <li> ID: ${teamEmp[index].getId()}</li>
+                        <li> Email: ${teamEmp[index].getEmail()}</li>
+                        <li>${special}</li>
+                      </ul>
                     </div>
                     `
                 }
@@ -136,10 +136,10 @@ function generateMember() {
                     <title>Document</title>
                 </head>
                 <body>
-                  <h1 class="text-center"> MY TEAM </h1>
+                  <header class="text-center bg-danger display-3 text-white"> MY TEAM </header>
 
                   <div class="container">
-                  <div class="row">
+                  <div class="row p-3">
                       ${empHtml}
                       </div>
                       </div>
