@@ -115,15 +115,14 @@ function generateMember() {
                         special = teamEmp[index].getSchool()
                     }
                     empHtml += `
-                    <div>
-                    <p>${teamEmp[index].getName()}</p>
-                    <p>${teamEmp[index].getRole()}</p>
+                    <div class="col-sm">
+                    <p> ${teamEmp[index].getName()}</p>
+                    <p> ${teamEmp[index].getRole()}</p>
                     <ul>
-                    <li>${teamEmp[index].getId()}</li>
-                    <li>${teamEmp[index].getEmail()}</li>
+                    <li> ID: ${teamEmp[index].getId()}</li>
+                    <li> Email: ${teamEmp[index].getEmail()}</li>
                     <li>${special}</li>
                     </ul>
-
                     </div>
                     `
                 }
@@ -133,12 +132,19 @@ function generateMember() {
                     <meta charset="UTF-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
                     <title>Document</title>
                 </head>
                 <body>
-                    ${empHtml}
-                </body>
+                  <h1 class="text-center"> MY TEAM </h1>
+
+                  <div class="container">
+                  <div class="row">
+                      ${empHtml}
+                      </div>
+                      </div>
+
+                  </body>
                 </html>`
                 console.log('Team has been built!')
                 // generates html
