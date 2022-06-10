@@ -16,7 +16,7 @@ I got help from my tutor, TA's, & classmates
 - Live Link [website](https://vhivestate.github.io/team-profile-generator/)
 - Video Link [website](https://drive.google.com/file/d/1vRuIeeM3yyzHILKNHXzOo0ULqdiG38dh/view)
 - Test Video Link [website](https://drive.google.com/file/d/1O0jxOuquwx2BH43AZrrwqGpJ9Jua5C27/view)
-## Screenshot & Video
+## Screenshot
 ![](./screenshot.png)
 ![](./video.webm)
 ![](./test-video.webm)
