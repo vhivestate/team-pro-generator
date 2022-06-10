@@ -139,7 +139,7 @@ function generateMember() {
                   <header class="text-center bg-danger display-3 text-white"> MY TEAM </header>
 
                   <div class="container">
-                    <div class="row p-3">
+                    <div class="row p-3 justify-content-around m-3">
                       ${empHtml}
                       </div>
                       </div>
